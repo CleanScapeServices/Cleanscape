@@ -1,7 +1,8 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CleanScape Services</title>
   <link rel="icon" type="image/x-icon" href="mowerlogo.png">
   <!-- Required meta tags -->
@@ -11,13 +12,15 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-sm navbar-light " style="background-color: #a1e8a1;">
-          <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-light navbar-fixed-top " style="background-color: #a1e8a1;">
+          <div class="container-fluid">
             <a class="navbar-brand" >
                 <img src="mowerlogo.png" alt="Bootstrap" width="50" height="50">
             </a>
@@ -39,36 +42,115 @@
     
   </header>
   <main>
-    <h2 class="text-center display-3">Welcome to CleanScape Services - Your Premier Lawnmowing and Car Cleaning Experts!</h2>
-    <div class="container overflow-hidden text-center">
-        <div class="row gx-5">
-          <div class="col">
-           <div class="p-3">  </div>
-          </div>
-          <div class="col">
-            <div class="p-3"><h1 class="display-5 text-lg-start">What do we offer?</h1></div>
-          </div>
-        </div>
-      </div>
-    <div class="container">
-        <div class="row gx-3 justify-content-between">
-      
-          <div class="col-lg-4 col-md-12">
-            <p class="lead">
-                At CleanScape Services, we understand that your time is valuable, and sometimes, you just want to sit back, relax, and let the professionals handle the work. That's where we come in! Our dedicated team of experts is here to take care of your lawn and car, leaving you with more free time to enjoy life.
+    <marquee scrollamount="15" direction="right"><h2 class="text-center display-3">Welcome to CleanScape Services - Your Premier Lawnmowing and Car Cleaning Experts!</h2></marquee>
+    
+            <div class="p-3"><h1 class="display-5 text-center"><u>What do we offer?</u></h1></div>
+            <div class="container-fluid">
+              <p class="lead">
+                At CleanScape Services, we understand that your time is valuable, and sometimes, you just want to sit back, relax, and let the professionals handle the work. That's where we come in! Our dedicated team of experts is here to take care of your jobs, leaving you with more free time to enjoy life.
               </p>
+            </div>
+            
+
+              
               <br>
-              <h1 class="display-5">Why choose us?</h1>
+              <br> 
+              
+          </div>
+          <div id="carouselExampleControls" class="carousel carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card">
+                  <img class="card-img-top" src="mowerlogo.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Lawnmowing</h4>
+                      <p class="card-text"><p class="lead">
+                          At CleanScape Services, we take lawn mowing to a whole new level of excellence. Our dedicated team of lawn care specialists are passionate about transforming your yard into a beautifully manicured outdoor space. Our expertise ensures that every blade of grass is trimmed to perfection. Sit back and relax while we work our magic, and enjoy the envy of your neighbors with a picture-perfect lawn courtesy of CleanScape Services.
+                        <br>
+                        <br>
+                        <br>
+                      <b>Starts from as little as £10 an hour</b></p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img class="card-img-top" src="car.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Car cleaning</h4>
+                      <p class="card-text"><p class="lead">
+                          At CleanScape Services, we take car washing very seriously. Our professional car washing service is designed to bring back that showroom shine and freshness to your beloved vehicle. With our car washing expertise, you can confidently hit the road in style and comfort, knowing that your car looks and feels as good as new. Experience the ultimate in car cleaning convenience with CleanScape Services today!<br>
+                          <br>
+                          <br>
+                          <b>Starts from as little as £12 per job</b></p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img class="card-img-top" src="window.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Window cleaning</h4>
+                      <p class="card-text"><p class="lead">
+                        Cleanscape Services delivers professional window cleaning solutions that will leave your building's windows gleaming and spotless. Our skilled team of experts uses cutting-edge equipment to ensure exceptional results without harming the environment. With attention to detail and a commitment to customer satisfaction, we take care of even the toughest stains and grime, providing unmatched service in the industry.<br>
+                          <br>
+                          <br>
+                          <b>Starts from as little as £4 per window</b></p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img class="card-img-top" src="dog.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Dog Walking</h4>
+                      <p class="card-text"><p class="lead">
+                        At CleanScape Services, we understand the importance of keeping our furry friends happy and healthy. Our professional dog walking service is designed to provide your beloved pets with the exercise and attention they need while you're away. Our team of experienced and caring dog walkers ensures a safe and enjoyable outing for your dogs, giving them a chance to explore the outdoors and socialize with other dogs. Trust CleanScape Services for reliable and loving care for your pets.
+                        <br>
+                        <br>
+                      <b>Starts from as little as £12 an hour</b></p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card">
+                  <img class="card-img-top" src="baby.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Baby Sitting</h4>
+                      <p class="card-text"><p class="lead">
+                        
+                      At Cleanscape Services, we understand the importance of providing top-notch babysitting services to our clients. Our dedicated team of skilled caregivers ensures that your little ones are in safe and caring hands, allowing you to have peace of mind while you attend to your daily commitments. Our experienced babysitters create a nurturing and engaging environment, fostering the growth and development of the children under their care. With Cleanscape Services, you can be confident that your children are well taken care of.
+                        <br>
+                        <br>
+                      <b>Starts from as little as £14 an hour</b></p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+          <div class="container-fluid">
+          <h1 class="display-5">Why choose us?</h1>
               <ul class="list-group">
                 <li class="list-group-item"><b>Convenience</b>: We understand that life can get busy, so we offer flexible scheduling options to fit your needs. Just let us know when it's convenient for you, and we'll be there!</li>
                 <li class="list-group-item"><b>Pricing</b>: Our services are competitively priced to give you the best value for your money. No hidden fees, no surprises – just transparent pricing.</li>
                 <li class="list-group-item"><b>Customer Satisfaction</b>: Your satisfaction is our top priority. We take pride in our work and strive to exceed your expectations with every service.</li>
               </ul>
-              <br>
-              <br> 
-              
+            
           </div>
-          <div class="col-lg-4 col-md-6">
+          <!-- <div class="col-lg-4 col-md-6">
             <div class="card">
                 <img class="card-img-top" src="mowerlogo.png" alt="Title">
                 <div class="card-body">
@@ -93,7 +175,7 @@
                 </div>
             </div>
       
-          </div>
+          </div> -->
       
         </div>
       </div>
@@ -101,6 +183,7 @@
       <br>
       <br>
   </main>
+  
   <footer>
     <footer class="bg-light text-center text-lg-start">
         
@@ -121,6 +204,45 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+<script>
+  
+  var multipleCardCarousel = document.querySelector("#carouselExampleControls");
+if (window.matchMedia("(min-width: 768px)").matches) {
+  var carousel = new bootstrap.Carousel(multipleCardCarousel, {
+    interval: false,
+  });
+  var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+  var cardWidth = $(".carousel-item").width();
+  var cardsToShow = 1; // Changed to 1 to increment by 1 card
+  var scrollPosition = 0;
+  
+  $("#carouselExampleControls .carousel-control-next").on("click", function () {
+    if (scrollPosition < carouselWidth - cardWidth * cardsToShow) {
+      scrollPosition += cardWidth; // Changed to increment by 1 card width
+      $("#carouselExampleControls .carousel-inner").animate(
+        { scrollLeft: scrollPosition },
+        1000
+      );
+    }
+  });
+  
+  $("#carouselExampleControls .carousel-control-prev").on("click", function () {
+    if (scrollPosition > 0) {
+      scrollPosition -= cardWidth; // Changed to increment by 1 card width
+      $("#carouselExampleControls .carousel-inner").animate(
+        { scrollLeft: scrollPosition },
+        600
+      );
+    }
+  });
+} else {
+  $(multipleCardCarousel).addClass("slide");
+}
+
+
+
+</script>
+  
 </body>
 
 </html>
