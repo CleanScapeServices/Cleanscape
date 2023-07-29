@@ -1,0 +1,78 @@
+<div class="card">
+                <img class="card-img-top" src="window.png" alt="Title">
+                <div class="card-body">
+                    <h4 class="card-title">Window cleaning</h4>
+                    <p class="card-text"><p class="lead">
+                      Cleanscape Services delivers professional window cleaning solutions that will leave your building's windows gleaming and spotless. Our skilled team of experts uses cutting-edge equipment to ensure exceptional results without harming the environment. With attention to detail and a commitment to customer satisfaction, we take care of even the toughest stains and grime, providing unmatched service in the industry.<br>
+                        <br>
+                        <b>Starts from as little as £12 per job</b></p></p>
+                </div>
+              </div>
+
+
+<div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card">
+                  <img class="card-img-top" src="mowerlogo.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Lawnmowing</h4>
+                      <p class="card-text"><p class="lead">
+                          At CleanScape Services, we take lawn mowing to a whole new level of excellence. Our dedicated team of lawn care specialists are passionate about transforming your yard into a beautifully manicured outdoor space. Our expertise ensures that every blade of grass is trimmed to perfection. Sit back and relax while we work our magic, and enjoy the envy of your neighbors with a picture-perfect lawn courtesy of CleanScape Services.
+                        <br>
+                        <br>
+                      <b>Starts from as little as £10 an hour</b></p></p>
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="card">
+                  <img class="card-img-top" src="car.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Car cleaning</h4>
+                      <p class="card-text"><p class="lead">
+                          At CleanScape Services, we take car washing very seriously. Our professional car washing service is designed to bring back that showroom shine and freshness to your beloved vehicle. With our car washing expertise, you can confidently hit the road in style and comfort, knowing that your car looks and feels as good as new. Experience the ultimate in car cleaning convenience with CleanScape Services today!<br>
+                          <br>
+                        
+                          <b>Starts from as little as £12 per job</b></p></p>
+                  </div>
+              </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="card">
+                  <img class="card-img-top" src="window.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Window cleaning</h4>
+                      <p class="card-text"><p class="lead">
+                        Cleanscape Services delivers professional window cleaning solutions that will leave your building's windows gleaming and spotless. Our skilled team of experts uses cutting-edge equipment to ensure exceptional results without harming the environment. With attention to detail and a commitment to customer satisfaction, we take care of even the toughest stains and grime, providing unmatched service in the industry.<br>
+                          <br>
+                          <b>Starts from as little as £4 per window</b></p></p>
+                  </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="card">
+                  <img class="card-img-top" src="window.png" alt="Title">
+                  <div class="card-body">
+                      <h4 class="card-title">Window cleaning</h4>
+                      <p class="card-text"><p class="lead">
+                        Cleanscape Services delivers professional window cleaning solutions that will leave your building's windows gleaming and spotless. Our skilled team of experts uses cutting-edge equipment to ensure exceptional results without harming the environment. With attention to detail and a commitment to customer satisfaction, we take care of even the toughest stains and grime, providing unmatched service in the industry.<br>
+                          <br>
+                          <b>Starts from as little as £4 per window</b></p></p>
+                  </div>
+              </div>
+              
+              <div class="carousel-item">
+                
+
+              </div>
+            </div>  
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
